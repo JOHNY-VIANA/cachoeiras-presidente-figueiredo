@@ -843,6 +843,31 @@ button:focus-visible {
 
 }
 
+.developers-list {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 20px;
+}
+
+.developers-list li {
+  margin-bottom: 6px;
+  color: #fff;
+  font-size: 0.95rem;
+}
+
+.github-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #4fc3f7;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.github-link:hover {
+  color: #81d4fa;
+  text-decoration: underline;
+}
 /* ==========================
    RESPONSIVIDADE FOOTER
 ========================== */
