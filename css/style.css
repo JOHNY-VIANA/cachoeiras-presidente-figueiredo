@@ -229,7 +229,7 @@ button:focus-visible {
   grid-template-columns: auto minmax(0, 1fr) auto;
   align-items: center;
   gap: 8px;
-  adding: 4px 0;
+  padding: 4px 0;
   scroll-margin-top: 120px;
   scroll-snap-align: start;
   transition: background 0.25s ease, border-color 0.25s ease;
