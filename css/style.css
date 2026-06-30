@@ -765,49 +765,57 @@ button:focus-visible {
   line-height: 1.3;
 }
 
-/* ===========================
-        FOOTER
-=========================== */
+/* =======================================
+   FOOTER
+======================================= */
 
-.site-footer {
-  background: var(--verde-escuro);
-  color: rgba(255, 255, 255, 0.85);
-  margin-top: 70px;
+.site-footer{
+
+    background:var(--verde-escuro);
+
+    color:#fff;
+
+    margin-top:80px;
+
 }
 
 .footer-grid{
 
     max-width:1200px;
+
     margin:auto;
-    padding:35px 25px;
+
+    padding:55px 25px 40px;
+
     display:grid;
+
     grid-template-columns:1.5fr 1fr 1fr;
-    gap:30px;           
+
+    gap:50px;
+
 }
 
-.footer-col p,
-.footer-col li,
-.footer-col a {
-    font-size: .95rem;
-    line-height: 1.6;
+.footer-col h3{
+
+    margin-bottom:18px;
+
+    font-size:1.35rem;
+
 }
 
+.footer-logo{
 
-.footer-col li{
-    margin-bottom:8px;
+    width:90px;
+
+    margin-bottom:18px;
+
 }
-
-.footer-col {
-    margin-bottom:12px;
-}
-
-
 
 .footer-col p{
 
-    line-height:1.8;
-
     color:#ececec;
+
+    line-height:1.8;
 
 }
 
@@ -816,6 +824,8 @@ button:focus-visible {
     list-style:none;
 
     padding:0;
+
+    margin:0;
 
 }
 
@@ -827,11 +837,11 @@ button:focus-visible {
 
 .footer-col a{
 
-    color:#ffffff;
+    color:#fff;
 
     text-decoration:none;
 
-    transition:.3s;
+    transition:.25s;
 
 }
 
@@ -839,74 +849,59 @@ button:focus-visible {
 
     color:#8ff0a6;
 
-    padding-left:6px;
+    padding-left:5px;
 
 }
 
-.footer-logo{
-    width:80px;   
-    padding:8px;
-    margin-bottom:12px;
+.developers-list{
+
+    margin:18px 0;
+
+}
+
+.github-link{
+
+    display:inline-block;
+
+    margin-top:12px;
+
+    font-weight:700;
+
 }
 
 .footer-copy{
 
     border-top:1px solid rgba(255,255,255,.15);
 
+    width:100%;
+
+    padding:22px;
+
     text-align:center;
-
-    padding: 15px;
-
-    color:#d9d9d9;
-
-    font-size: 0.85rem;
 
 }
 
 .footer-copy p{
 
-    margin:6px 0;
+    margin:5px 0;
+
+    color:#d8d8d8;
+
+    font-size:.9rem;
 
 }
 
-.developers-list {
-  list-style: none;
-  padding: 0;
-  margin: 12px 0 20px;
+@media(max-width:900px){
+
+    .footer-grid{
+
+        grid-template-columns:1fr 1fr;
+
+    }
+
 }
 
-.developers-list li {
-  margin-bottom: 6px;
-  color: #fff;
-  font-size: 0.95rem;
-}
-
-.github-link {
-  display: inline-block;
-  margin-top: 10px;
-  color: #4fc3f7;
-  text-decoration: none;
-  font-weight: 600;
-  transition: color 0.3s ease;
-}
-
-.github-link:hover {
-  color: #81d4fa;
-  text-decoration: underline;
-}
-/* ==========================
-   RESPONSIVIDADE FOOTER
-========================== */
-
-.nav-entre-btn.anterior { text-align: left; }
-
-.nav-entre-btn.proximo { text-align: right; }
-
-@media (max-width: 900px) {
-  .footer-grid { grid-template-columns: 1fr 1fr; }
-}
-
-@media (max-width: 768px) {
+@media(max-width:768px){
 
     .footer-grid{
 
@@ -914,70 +909,24 @@ button:focus-visible {
 
         text-align:center;
 
-        gap:30px;
+        gap:40px;
 
-        padding:30px 20px;
-
-    }
-
-    .footer-col{
-
-        width:100%;
+        padding:40px 25px;
 
     }
 
     .footer-logo{
 
+        margin:0 auto 20px;
+
         display:block;
-
-        margin:0 auto 15px;
-
-        width:90px;
-
-    }
-
-    .footer-col h3{
-
-        margin-bottom:12px;
-
-        font-size:1.3rem;
-
-    }
-
-    .footer-col p{
-
-        max-width:350px;
-
-        margin:auto;
-
-        line-height:1.7;
-
-    }
-
-    .footer-col ul{
-
-        padding:0;
-
-    }
-
-    .footer-col li{
-
-        margin:8px 0;
-
-    }
-
-    .footer-copy{
-
-        padding:18px;
-
-        font-size:.85rem;
 
     }
 
 }
 
 /* ===========================
-   RESPONSIVE
+   RESPONSIVIDADE
 =========================== */
 @media (max-width: 640px) {
   .hero { padding: 48px 20px 40px; }
