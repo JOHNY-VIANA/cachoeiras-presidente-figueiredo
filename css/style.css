@@ -9,7 +9,15 @@
 }
 
 #conteudo-principal{
-padding-top: 130px;
+    padding-top: 130px;
+}
+
+@media (max-width:768px){
+
+    #conteudo-principal{
+        padding-top: 95px;
+    }
+
 }
 
 :root {
